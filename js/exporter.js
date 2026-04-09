@@ -55,7 +55,7 @@ export function exportICO() {
   const canvas = getCanvas();
   if (!canvas) { showToast('No image to export', 'error'); return; }
 
-  const sizes = [16, 32, 48];
+  const sizes = [16, 32, 48, 64, 96, 128, 256];
   const pngBlobs = [];
   let pending = sizes.length;
 

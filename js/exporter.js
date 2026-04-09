@@ -126,5 +126,5 @@ function buildICO(entries) {
   a.download = 'pixelstrip-icon.ico';
   a.click();
   URL.revokeObjectURL(url);
-  showToast('ICO exported (16/32/48px)!', 'success');
+  showToast('ICO exported (16/32/48/64/96/128/256px)!', 'success');
 }
